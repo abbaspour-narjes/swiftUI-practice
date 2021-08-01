@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E7DBDBB26B6D47F008CF903 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E7DBDBB26B6D47F008CF903 /* SwiftUI-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7DBDBE26B6D47F008CF903 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		2E7DBDC226B6D480008CF903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E7DBDC526B6D480008CF903 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		2E7DBDB226B6D47F008CF903 = {
 			isa = PBXGroup;
 			children = (
-				2E7DBDBD26B6D47F008CF903 /* Landmarks */,
+				2E7DBDBD26B6D47F008CF903 /* SwiftUI-practice */,
 				2E7DBDBC26B6D47F008CF903 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,12 +47,12 @@
 		2E7DBDBC26B6D47F008CF903 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2E7DBDBB26B6D47F008CF903 /* Landmarks.app */,
+				2E7DBDBB26B6D47F008CF903 /* SwiftUI-practice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2E7DBDBD26B6D47F008CF903 /* Landmarks */ = {
+		2E7DBDBD26B6D47F008CF903 /* SwiftUI-practice */ = {
 			isa = PBXGroup;
 			children = (
 				2E7DBDD426B71B9F008CF903 /* UI */,
@@ -62,7 +62,7 @@
 				2E7DBDC426B6D480008CF903 /* Preview Content */,
 				2E7DBDD726B71E16008CF903 /* ModelData.swift */,
 			);
-			path = Landmarks;
+			path = "SwiftUI-practice";
 			sourceTree = "<group>";
 		};
 		2E7DBDC426B6D480008CF903 /* Preview Content */ = {
@@ -100,9 +100,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2E7DBDBA26B6D47F008CF903 /* Landmarks */ = {
+		2E7DBDBA26B6D47F008CF903 /* SwiftUI-practice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E7DBDC926B6D480008CF903 /* Build configuration list for PBXNativeTarget "Landmarks" */;
+			buildConfigurationList = 2E7DBDC926B6D480008CF903 /* Build configuration list for PBXNativeTarget "SwiftUI-practice" */;
 			buildPhases = (
 				2E7DBDB726B6D47F008CF903 /* Sources */,
 				2E7DBDB826B6D47F008CF903 /* Frameworks */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = Landmarks;
+			name = "SwiftUI-practice";
 			productName = Landmarks;
-			productReference = 2E7DBDBB26B6D47F008CF903 /* Landmarks.app */;
+			productReference = 2E7DBDBB26B6D47F008CF903 /* SwiftUI-practice.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2E7DBDB626B6D47F008CF903 /* Build configuration list for PBXProject "Landmarks" */;
+			buildConfigurationList = 2E7DBDB626B6D47F008CF903 /* Build configuration list for PBXProject "SwiftUI-practice" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E7DBDBA26B6D47F008CF903 /* Landmarks */,
+				2E7DBDBA26B6D47F008CF903 /* SwiftUI-practice */,
 			);
 		};
 /* End PBXProject section */
@@ -304,6 +304,10 @@
 				DEVELOPMENT_TEAM = B9J3E9X4RW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-practice-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "SwiftUI-practice";
+				INFOPLIST_KEY_CFBundleName = "SwiftUI-practice";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,7 +319,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abs.landmark.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abs.landmark.SwiftUI-practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,6 +338,10 @@
 				DEVELOPMENT_TEAM = B9J3E9X4RW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-practice-Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "SwiftUI-practice";
+				INFOPLIST_KEY_CFBundleName = "SwiftUI-practice";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -345,7 +353,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.abs.landmark.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abs.landmark.SwiftUI-practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2E7DBDB626B6D47F008CF903 /* Build configuration list for PBXProject "Landmarks" */ = {
+		2E7DBDB626B6D47F008CF903 /* Build configuration list for PBXProject "SwiftUI-practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E7DBDC726B6D480008CF903 /* Debug */,
@@ -365,7 +373,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E7DBDC926B6D480008CF903 /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
+		2E7DBDC926B6D480008CF903 /* Build configuration list for PBXNativeTarget "SwiftUI-practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2E7DBDCA26B6D480008CF903 /* Debug */,
