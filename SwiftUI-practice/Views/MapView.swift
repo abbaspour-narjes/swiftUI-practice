@@ -1,14 +1,16 @@
 //
-//  LocationCell.swift
-//  Landmarks
+//  ContentView.swift
+//  SwiftUI-practice
 //
-//  Created by Narges Abbaspour on 8/1/21.
+//  Created by Narges Abbaspour on 8/3/21.
 //
+
+import SwiftUI
 
 import SwiftUI
 import MapKit
 
-struct LocationCell: View {
+struct MapView: View {
     var body: some View {
         ZStack{
             VStack{
@@ -37,7 +39,7 @@ struct LocationCell: View {
 
 struct LocationCell_Previews: PreviewProvider {
     static var previews: some View {
-        LocationCell()
+        MapView()
     }
 }
 
