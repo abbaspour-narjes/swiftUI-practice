@@ -14,18 +14,19 @@ enum MError:Error{
     case convert
 }
 
+var landmarks: [Landmark] = loadModel("landmarkData.json")
 
- func loadModel<G:Decodable>(_ fileName: String) -> Result<G,MError>  {
+func loadModel<G:Decodable>(_ filename: String) -> G  {
     
-   guard let address = Bundle.main.url(forResource: fileName, withExtension: nil)
-     else{ return .failure(MError.address)}
-     
-     guard let content = try? Data(contentsOf: address)
-     else{ return .failure(MError.Content)}
-     
-     let decoder = JSONDecoder()
-     guard let model   = try? decoder.decode(G.self, from: content)
-     else{ return .failure(MError.convert)}
-     
-     return .success(model)
+    guard let address = Bundle.main.url(forResource: filename, withExtension: nil)
+    else{ fatalError("Couldn't find \(filename) in main bundle.")}
+    
+    guard let content = try? Data(contentsOf: address)
+    else{  fatalError("Couldn't load \(filename) ")}
+    
+    let decoder = JSONDecoder()
+    guard let model   = try? decoder.decode(G.self, from: content)
+    else{ fatalError("Couldn't parse \(filename) ")}
+    
+    return model
 }
