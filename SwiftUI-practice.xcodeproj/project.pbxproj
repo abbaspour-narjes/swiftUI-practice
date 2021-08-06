@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E15F48E26B9BBF900F76320 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15F48D26B9BBF900F76320 /* LandmarkList.swift */; };
 		2E2F22DF26B88216004BF781 /* SwiftUI_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F22DE26B88216004BF781 /* SwiftUI_practiceApp.swift */; };
-		2E2F22E126B88216004BF781 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F22E026B88216004BF781 /* MapView.swift */; };
+		2E2F22E126B88216004BF781 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F22E026B88216004BF781 /* LandmarkDetail.swift */; };
 		2E2F22E326B88217004BF781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F22E226B88217004BF781 /* Assets.xcassets */; };
 		2E2F22E626B88217004BF781 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F22E526B88217004BF781 /* Preview Assets.xcassets */; };
 		2E3DCE7A26B88615002706C6 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3DCE7926B88615002706C6 /* Landmark.swift */; };
@@ -18,9 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E15F48D26B9BBF900F76320 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		2E2F22DB26B88216004BF781 /* SwiftUI-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2F22DE26B88216004BF781 /* SwiftUI_practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_practiceApp.swift; sourceTree = "<group>"; };
-		2E2F22E026B88216004BF781 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2E2F22E026B88216004BF781 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		2E2F22E226B88217004BF781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E2F22E526B88217004BF781 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E3DCE7926B88615002706C6 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
@@ -80,8 +82,9 @@
 		2E3DCE7626B885D5002706C6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2E2F22E026B88216004BF781 /* MapView.swift */,
+				2E2F22E026B88216004BF781 /* LandmarkDetail.swift */,
 				2E3DCE7D26B886B8002706C6 /* LandmarkRow.swift */,
+				2E15F48D26B9BBF900F76320 /* LandmarkList.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,7 +177,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E2F22E126B88216004BF781 /* MapView.swift in Sources */,
+				2E2F22E126B88216004BF781 /* LandmarkDetail.swift in Sources */,
+				2E15F48E26B9BBF900F76320 /* LandmarkList.swift in Sources */,
 				2E3DCE7C26B88643002706C6 /* ModelData.swift in Sources */,
 				2E2F22DF26B88216004BF781 /* SwiftUI_practiceApp.swift in Sources */,
 				2E3DCE7E26B886B8002706C6 /* LandmarkRow.swift in Sources */,
@@ -236,7 +240,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -291,7 +295,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
