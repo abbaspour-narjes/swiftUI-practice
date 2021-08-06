@@ -14,10 +14,12 @@ struct LandmarkList: View {
                 NavigationLink(destination: LandmarkDetail(landmark: l)) {
                     LandmarkRow(landmark: l)
                 }
-            }
+            }.listStyle(.plain)
+            .navigationTitle("Landmarks")
+            .navigationBarTitleDisplayMode(.inline)
+             
         }
-        .navigationTitle(Text("Landmarks").foregroundColor(.blue))
-        
+
     }
 }
 

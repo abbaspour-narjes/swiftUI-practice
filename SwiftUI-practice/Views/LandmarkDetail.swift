@@ -38,6 +38,7 @@ struct LandmarkDetail: View {
         }.ignoresSafeArea()
             .navigationTitle(landmark.name)
             .navigationBarTitleDisplayMode(.inline)
+            
         
     }
 }
