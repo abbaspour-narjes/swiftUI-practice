@@ -10,16 +10,16 @@ import SwiftUI
 struct LandmarkList: View {
     var body: some View {
         NavigationView{
-            List(landmarks){ l in
+            List(landmarks,id: \.self){ l in
                 NavigationLink(destination: LandmarkDetail(landmark: l)) {
                     LandmarkRow(landmark: l)
                 }
             }.listStyle(.plain)
-            .navigationTitle("Landmarks")
-            .navigationBarTitleDisplayMode(.inline)
-             
+                .navigationTitle("Landmarks")
+                .navigationBarTitleDisplayMode(.inline)
+            
         }
-
+        
     }
 }
 
@@ -27,6 +27,7 @@ struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkList()
     }
+    
 }
 
 
